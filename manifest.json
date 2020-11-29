@@ -1,0 +1,22 @@
+{
+    "name": "Dictionary",
+    "version": "1.0",
+    "description": "Search the selected word in a dictionary",
+    "manifest_version": 2,
+    "incognito": "split",
+    "browser_action":{
+
+    },
+    "background": 
+    {
+        "scripts": ["main.js"],
+        "persistent": false
+    },
+    "permissions": 
+    [
+        "tabs",
+        "*://*/*",
+        "contextMenus",
+        "notifications"
+    ]
+}
